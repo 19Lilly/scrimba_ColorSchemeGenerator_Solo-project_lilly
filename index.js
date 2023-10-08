@@ -40,5 +40,8 @@ getColorSchemeBtn.addEventListener("click", function () {
         </div>`;
       });
       colorPaletteEl.innerHTML = html;
+      
     });
 });
+
+
