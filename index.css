@@ -1,0 +1,94 @@
+:root {
+    --clr-bg-body: #f3f3f5;
+
+    --clr-neutral: #fff;
+    --clr-text: #878787;
+
+    --ff-poppins: 'Poppins', sans-serif;
+
+    --radiusBig: 32px;
+    --radiusMedium: 16px;
+    --radiusSmall: 5px;
+    --radiusCircle: 50%;
+}
+
+/*-----reset-----*/
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*-----utilities-----*/
+.hidden {
+    display: none;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+
+/*-----main-----*/
+
+body {
+    font-family: var(--ff-poppins);
+    min-height: 100vh;
+    background: var(--clr-bg-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: min(28.125rem, 100%);
+    color: var(--clr-text);
+    background-color: var(--clr-neutral);
+    border-radius: var(--radiusSmall);
+}
+
+.color-pallete {
+    display: flex;
+}
+
+.color-pallete >* {flex-basis: 100%;}
+
+.color-rectangle{
+    height: 16rem;
+}
+
+

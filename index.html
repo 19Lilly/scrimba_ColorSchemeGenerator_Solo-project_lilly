@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color scheme generator - solo project from www.scrimba.com</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Poppins:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <input class="pick-color-input" type="color">
+            <select name="pallete-type" id="palette-type" class="pallete-type">
+                <option value="Monochrome">Monochrome</option>
+                <option value="Monochrome-dark">Monochrome-dark</option>
+                <option value="Monochrome-light">Monochrome-light</option>
+                <option value="Analogic">Analogic</option>
+                <option value="Complement">Complement</option>
+                <option value="Analogic-complement">Analogic-complement</option>
+                <option value="Triad">Triad</option>
+            </select>
+            <button class="btn get-color-scheme">Get color scheme</button>
+        </header>
+        <div class="color-pallete">
+         
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
