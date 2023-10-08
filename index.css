@@ -81,11 +81,11 @@ body {
     border-radius: var(--radiusSmall);
 }
 
-.color-pallete {
+.color-palette {
     display: flex;
 }
 
-.color-pallete >* {flex-basis: 100%;}
+.color-palette >* {flex-basis: 100%;}
 
 .color-rectangle{
     height: 16rem;
